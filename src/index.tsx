@@ -64,7 +64,7 @@ function useWallet(): Wallet {
   if (walletContext === null) {
     throw new Error(
       'useWallet() can only be used inside of <UseWalletProvider />, ' +
-        'please declare it at a higher level.'
+      'please declare it at a higher level.'
     )
   }
 
@@ -387,6 +387,7 @@ export {
   ConnectorUnsupportedError,
   UseWalletProviderWrapper as UseWalletProvider,
   useWallet,
+  UseWalletContext,
   getProviderString,
   getProviderFromUseWalletId,
   blockExplorerUrl,
