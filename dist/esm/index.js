@@ -1527,11 +1527,11 @@ var CRO = {
 };
 var CHAIN_INFORMATION = /*#__PURE__*/new Map([[31337, {
   id: 31337,
-  nativeCurrency: BNB,
-  type: 'bsc',
-  fullName: 'Binance Smart Chain',
-  shortName: 'BSC',
-  explorerUrl: "https://bscscan.com/",
+  nativeCurrency: ETH,
+  type: 'fork',
+  fullName: 'FORKED HARDHAT NETWORK',
+  shortName: 'Forked',
+  explorerUrl: "https://etherscan.com/",
   testnet: false
 }], [25, {
   id: 25,
