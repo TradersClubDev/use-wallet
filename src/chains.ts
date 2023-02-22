@@ -327,9 +327,9 @@ const CHAIN_INFORMATION = new Map<number, ChainInformation | ChainType>([
     },
   ],
   [
-    421611,
+    421613,
     {
-      id: 421611,
+      id: 421613,
       nativeCurrency: ETH,
       type: 'arbitrumTest',
       fullName: 'Arbitrum Testnet',
