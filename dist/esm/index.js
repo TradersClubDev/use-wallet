@@ -1684,8 +1684,8 @@ var CHAIN_INFORMATION = /*#__PURE__*/new Map([[31337, {
   shortName: 'ThunderCore Testnet',
   explorerUrl: "https://scan-testnet.thundercore.com/",
   testnet: true
-}], [421611, {
-  id: 421611,
+}], [421613, {
+  id: 421613,
   nativeCurrency: ETH,
   type: 'arbitrumTest',
   fullName: 'Arbitrum Testnet',
@@ -2237,7 +2237,7 @@ function useWatchBlockNumber(_ref) {
     blockNumberListeners.current.add(cb);
   }, []);
   var removeBlockNumberListener = useCallback(function (cb) {
-    blockNumberListeners.current.delete(cb);
+    blockNumberListeners.current["delete"](cb);
   }, []); // Update the block number and broadcast it to the listeners
 
   var updateBlockNumber = useCallback(function (blockNumber) {
@@ -2309,7 +2309,7 @@ function useWalletBalance(_ref) {
                   case 0:
                     return _context.abrupt("return", getAccountBalance(ethereum, account).then(function (value) {
                       return value ? JSBI.BigInt(value).toString() : NO_BALANCE;
-                    }).catch(function () {
+                    })["catch"](function () {
                       return NO_BALANCE;
                     }));
 
