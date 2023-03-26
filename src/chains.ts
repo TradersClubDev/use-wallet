@@ -486,6 +486,18 @@ const CHAIN_INFORMATION = new Map<number, ChainInformation | ChainType>([
       testnet: false,
     },
   ],
+  [
+    324,
+    {
+      id: 324,
+      nativeCurrency: ETH,
+      type: 'zksync',
+      fullName: 'zkSync Era Mainnet',
+      shortName: 'zkSync Era',
+      explorerUrl: 'https://explorer.zksync.io/',
+      testnet: false,
+    },
+  ],
 ])
 
 /**

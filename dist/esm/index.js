@@ -1788,6 +1788,14 @@ var CHAIN_INFORMATION = /*#__PURE__*/new Map([[31337, {
   shortName: 'HECO',
   explorerUrl: "https://hecoscan.xyz/",
   testnet: false
+}], [324, {
+  id: 324,
+  nativeCurrency: ETH,
+  type: 'zksync',
+  fullName: 'zkSync Era Mainnet',
+  shortName: 'zkSync Era',
+  explorerUrl: 'https://explorer.zksync.io/',
+  testnet: false
 }]]);
 /**
  * This method checks whether a particular chain id is known.
