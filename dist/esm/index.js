@@ -1533,6 +1533,14 @@ var CHAIN_INFORMATION = /*#__PURE__*/new Map([[31337, {
   shortName: 'Forked',
   explorerUrl: "https://etherscan.com/",
   testnet: false
+}], [1115111, {
+  id: 1115111,
+  nativeCurrency: ETH,
+  type: 'sep',
+  fullName: 'Sepolia ETH',
+  shortName: 'Sepolia',
+  explorerUrl: "https://sepolia.etherscan.com/",
+  testnet: false
 }], [25, {
   id: 25,
   nativeCurrency: CRO,

@@ -100,6 +100,18 @@ const CHAIN_INFORMATION = new Map<number, ChainInformation | ChainType>([
     },
   ],
   [
+    1115111,
+    {
+      id: 1115111,
+      nativeCurrency: ETH,
+      type: 'sep',
+      fullName: 'Sepolia ETH',
+      shortName: 'Sepolia',
+      explorerUrl: `https://sepolia.etherscan.com/`,
+      testnet: false,
+    },
+  ],
+  [
     25,
     {
       id: 25,
