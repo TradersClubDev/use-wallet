@@ -1531,16 +1531,16 @@ var CHAIN_INFORMATION = /*#__PURE__*/new Map([[31337, {
   type: 'fork',
   fullName: 'FORKED HARDHAT NETWORK',
   shortName: 'Forked',
-  explorerUrl: "https://etherscan.com/",
+  explorerUrl: "https://etherscan.io/",
   testnet: false
-}], [1115111, {
-  id: 1115111,
+}], [11155111, {
+  id: 11155111,
   nativeCurrency: ETH,
-  type: 'sep',
-  fullName: 'Sepolia ETH',
+  type: 'sepolia',
+  fullName: 'Sepolia Testnet',
   shortName: 'Sepolia',
-  explorerUrl: "https://sepolia.etherscan.com/",
-  testnet: false
+  explorerUrl: "https://sepolia.etherscan.io",
+  testnet: true
 }], [25, {
   id: 25,
   nativeCurrency: CRO,
